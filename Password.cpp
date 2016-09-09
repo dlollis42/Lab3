@@ -4,6 +4,31 @@ using CSC2110::ListArrayIterator;
 #include <iostream>
 using namespace std;
 
+/*Password::Password()
+{
+	len = 11
+	all_words = len;
+	viable_words = new [len];
+	for(int x = 0; x < len; x++)
+	{
+		viable_words[x] = NULL;
+	}
+
+}
+
+Password::~Password()
+{								********I AM VERY LOST LIBRARY SOON..T-T********
+	delete[] viable_words;
+	delete[] all_words;
+}
+
+void Password::addWord(String* word)
+{
+	if(viable_words == len)
+	{
+		all_words->viable_words;
+	}
+}*/							
 		Password::Password();
 		Password::~Password();
 		void Password::addWord(String* word);
